@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+button.btn {
+  background-color: #f44336;
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+p,
+ul,
+li {
+  text-align: left;
+}
+
+li {
+  line-height: 20px;
+}
+
+.rules {
+  display: inline-block;
+}
+
+.scorer {
+  float: left;
+}
+
+.timer {
+  text-align: right;
+}
+
+/* .timer {
+  position: fixed;
+  top: 40px;
+  right: 10px;
+  font-size: 20px;
+  text-align: center;
+} */
+
+.score,
+.time {
+  font-weight: 500;
+  font-size: 20px;
+  color: yellow;
+}
+
+#hrules1,
+#hrules2 {
+  display: none;
+}
+
+#btn1 {
+  background-color: #f44336;
+  outline: none;
+  color: white;
+  border: none;
+  position: fixed;
+  right: 2px;
+  bottom: 2px;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  padding: 0px;
+  text-align: center;
+  line-height: 10px;
+}
